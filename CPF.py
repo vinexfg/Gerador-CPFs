@@ -10,10 +10,24 @@ def validador(cpf):
         contador_regressivo = 10
         resultado = 0
         for digito in cpf:
-                resultado += (digito * contador_regressivo)
+                resultado += digito * contador_regressivo
                 contador_regressivo -= 10
-            digito = (resultado * 10) % 11
-            resultado
+        digito = (resultado * 10) & 11
+        digito = digito if digito <=9 else 0
+
+        
+
+
+
+
+        # cpf = cpf[:9]
+        # contador_regressivo = 10
+        # resultado = 0
+        # for digito in cpf:
+        #         resultado += (digito * contador_regressivo)
+        #         contador_regressivo -= 10
+        #     digito = (resultado * 10) % 11
+        #     resultado
         
                 
                 
