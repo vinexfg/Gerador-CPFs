@@ -5,7 +5,6 @@ def validador(cpf):
     contador_regressivo = 10
     resultado = 0
     for digito in cpf_digitado:
-        resultado += (digito * contador_regressivo)
+        resultado += int(digito) * contador_regressivo
         contador_regressivo -= 1
-    digito = digito if digito >= 9 else 0
-        
+    digito = digito if digito <= 9 else 0
