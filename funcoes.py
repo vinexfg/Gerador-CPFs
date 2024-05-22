@@ -36,5 +36,5 @@ class Validador_cpf:
                 self.cpf[:9]
                 for digito in self.cpf:
                     print(digito)
-
+            
 
