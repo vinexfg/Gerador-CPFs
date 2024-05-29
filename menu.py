@@ -24,5 +24,3 @@ while True:
         print('Entrada  invalida, por favor insira um numero')
 
     
-
-            
