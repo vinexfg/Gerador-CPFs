@@ -59,3 +59,4 @@ class GeradorCPF:
         cpf_final = cpf_com_digito1 + str(digito2)
         return cpf_final
 
+#oi
