@@ -1,5 +1,6 @@
 import random
 
+
 class Pessoa:
     def __init__(self, nome, sobrenome, idade):
         self.nome = nome
@@ -58,5 +59,3 @@ class GeradorCPF:
 
         cpf_final = cpf_com_digito1 + str(digito2)
         return cpf_final
-
-#oi
